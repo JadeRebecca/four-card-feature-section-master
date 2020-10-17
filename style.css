@@ -72,6 +72,10 @@ footer{
 }
 
 @media all and (min-width: 400px){
+    h2{
+        font-size: 24px;
+        line-height: 1.4em;
+    }
     .subTitle{
         max-width: 500px;
         margin: auto;
@@ -82,14 +86,19 @@ footer{
     .card{
         width: 300px;
     }
-
+}
 @media all and (min-width: 800px){
+    h2{
+        font-size: 34px;
+        line-height: 1.4em;
+    }
     #container{
         flex-direction: row;
         justify-content: center;
     }
     .card{
         height: 210px;
+        width: 25vw;
     }
     .together{
         margin-left:15px;
@@ -98,8 +107,9 @@ footer{
     #supervisor, #calculator{
         margin-top: 100px;
     }
-
 }
-
-
-
+@media all and (min-width: 1100px){
+    .card{
+        width: 300px;
+    }
+}
